@@ -1,13 +1,13 @@
 {
-  "name": "eslint-clone",
+  "name": "telos-lint",
   "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "bin": {
-    "eslint-clone": "src/index.js"
+    "telos-lint": "src/index.js"
   },
   "scripts": {
-    "lint": "eslint-clone --file error.js",
+    "lint": "telos-lint --file error.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
